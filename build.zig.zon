@@ -1,0 +1,13 @@
+.{
+    .name = "zwav",
+    .version = "0.1.0",
+    .minimum_zig_version = "0.11.0",
+    .dependencies = .{},
+    .paths = .{
+        ".gitattributes",
+        ".gitignore",
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
