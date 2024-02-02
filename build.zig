@@ -1,5 +1,8 @@
 const std = @import("std");
 
+// Export library for use at build time.
+pub usingnamespace @import("src/zwav.zig");
+
 pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
